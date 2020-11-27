@@ -1,0 +1,2 @@
+eta1,eta2,coeff,statistics,p-value
+eta_A1,eta_tau1,0,3.8708,0.00102922

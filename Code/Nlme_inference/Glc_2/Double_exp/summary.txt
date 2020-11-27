@@ -1,0 +1,119 @@
+********************************************************************************
+*                        Double_exp.mlxtran                                    *
+*                        November 23, 2020 at 09:22:47                         *
+*                        Monolix version : 5.1.1                               *
+********************************************************************************
+
+
+POPULATION PARAMETERS ESTIMATION _______________________________________________
+
+Fixed Effects ----------------------------     se_sa    rse(%)
+A1_pop                         :     0.382    0.0072      1.89
+tau1_pop                       :   7.62e+3   1.28e+4       168
+A2_pop                         :     0.273   0.00815      2.98
+tau2_pop                       :      5.76     0.792      13.7
+
+Standard Deviation of the Random Effects -
+omega_A1                       :    0.0741    0.0166      22.4
+omega_tau1                     :      1.98     0.426      21.5
+omega_A2                       :      0.13    0.0282      21.8
+omega_tau2                     :     0.345    0.0753      21.8
+
+Correlations -----------------------------
+corr_A2_A1                     :     0.998       nan       nan
+corr_tau1_A1                   :     0.929       nan       nan
+corr_tau2_A1                   :    -0.994       nan       nan
+corr_tau1_A2                   :     0.908       nan       nan
+corr_tau2_A2                   :    -0.986       nan       nan
+corr_tau2_tau1                 :    -0.965       nan       nan
+
+Error Model Parameters -------------------
+a                              :    0.0825   0.00138      1.68
+
+Elapsed time (seconds) :       18
+CPU time     (seconds) :       53
+
+ _______________________________________________________________________________
+
+
+
+CORRELATION MATRIX OF THE ESTIMATES ____________________________________________
+
+
+Fisher by Stochastic Approximation ---------------------------------------------
+Correlation Matrix :
+        A1_pop         1
+      tau1_pop   0.64539         1
+        A2_pop    0.8998   0.26814         1
+      tau2_pop  -0.86916  -0.93822  -0.58371         1
+      omega_A1  -0.32715  -0.65568 -0.057219   0.57239         1
+  corr_tau1_A1       nan       nan       nan       nan       nan       nan
+    corr_A2_A1       nan       nan       nan       nan       nan       nan       nan
+  corr_tau2_A1       nan       nan       nan       nan       nan       nan       nan       nan
+    omega_tau1  -0.31027  -0.62323 -0.050832   0.54335   0.99783       nan       nan       nan         1
+  corr_tau1_A2       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan
+corr_tau2_tau1       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan
+      omega_A2  -0.30839   -0.6207 -0.047524   0.54049   0.99579       nan       nan       nan   0.99871       nan       nan         1
+  corr_tau2_A2       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan       nan
+    omega_tau2  -0.31576  -0.63465 -0.052026   0.55329   0.99893       nan       nan       nan   0.99969       nan       nan   0.99875       nan         1
+             a -0.004941-0.0079548-0.0014523 0.0073093 0.0074557       nan       nan       nan 0.0073934       nan       nan 0.0078373       nan 0.0074497         1
+WARNING : Impossible to compute the eigen values of the correlation matrix.
+
+Elapsed time (seconds) :      21
+CPU time     (seconds) :      57
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+
+INDIVIDUAL PARAMETERS ESTIMATION _______________________________________________
+
+
+Individual Parameters Estimation by Conditional Mean ---------------------------
+             min        Q1    median        Q3       max
+A1   :     0.307     0.372     0.382     0.404     0.432
+tau1 :      55.1   5.73e+3    9.9e+3   4.46e+4   1.88e+5
+A2   :     0.186     0.262     0.274     0.302      0.34
+tau2 :      3.27      4.44      5.79      6.48      15.8
+
+Elapsed time (seconds) :     5.4
+CPU time     (seconds) :      15
+
+ -------------------------------------------------------------------------------
+
+
+Individual Parameters Estimation by Conditional Mode ---------------------------
+             min        Q1    median        Q3       max
+A1   :     0.308     0.373     0.382     0.403     0.433
+tau1 :      39.3    4.3e+3    7.6e+3   3.07e+4    1.7e+5
+A2   :     0.188     0.262     0.273     0.301     0.341
+tau2 :      3.22      4.46      5.76      6.42      15.5
+
+Elapsed time (seconds) :   0.092
+CPU time     (seconds) :       0
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+
+LOG-LIKELIHOOD ESTIMATION ______________________________________________________
+                                                            (is)
+
+-2 x log-likelihood                             :       -3782.36
+Akaike Information Criteria               (AIC) :       -3752.36
+Corrected Bayesian Information Criteria  (BICc) :       -3714.93
+Bayesian Information Criteria             (BIC) :       -3737.42
+
+Elapsed time                          (seconds) :           8.42
+CPU time                              (seconds) :          23.00
+
+
+[Importance Sampling] Standard error        : 45.388
+                      Sampling distribution : T-distribution with 5 degrees of freedom
+
+ _______________________________________________________________________________
+

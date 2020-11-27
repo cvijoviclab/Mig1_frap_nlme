@@ -1,0 +1,56 @@
+<DATAFILE>
+
+[FILEINFO]
+file = '../../../../../../../Intermediate/Monolix_data/glycerol_2.csv'
+delimiter = comma
+header = {time, observation, id}
+
+[CONTENT]
+time = {use=time}
+observation = {use=observation, name=observation, type=continuous}
+id = {use=identifier}
+
+<MODEL>
+
+[INDIVIDUAL]
+input = {A1_pop, omega_A1, tau1_pop, omega_tau1, corr_tau1_A1}
+
+DEFINITION:
+A1 = {distribution=logNormal, typical=A1_pop, sd=omega_A1}
+tau1 = {distribution=logNormal, typical=tau1_pop, sd=omega_tau1}
+correlation = {level=id, r(tau1, A1)=corr_tau1_A1}
+
+[LONGITUDINAL]
+input = {a}
+
+file = '../../../../../Simple_exponential_model.txt'
+
+DEFINITION:
+observation = {distribution=normal, prediction=intensity, errorModel=constant(a)}
+
+<FIT>
+data = observation
+model = observation
+
+<PARAMETER>
+A1_pop = {value=0.5, method=MLE}
+a = {value=1, method=MLE}
+corr_tau1_A1 = {value=0, method=MLE}
+omega_A1 = {value=1, method=MLE}
+omega_tau1 = {value=1, method=MLE}
+tau1_pop = {value=4.2, method=MLE}
+
+<MONOLIX>
+
+[TASKS]
+populationParameters()
+individualParameters(method = {conditionalMean, conditionalMode })
+fim(run = false,method = StochasticApproximation)
+logLikelihood(run = false,method = ImportanceSampling)
+plotResult(method = {outputplot, indfits, obspred, vpc, residualsscatter, residualsdistribution, parameterdistribution, covariatemodeldiagnosis, randomeffects, covariancemodeldiagnosis, saemresults })
+
+[SETTINGS]
+GLOBAL:
+seed = 1303402199
+exportpath = '../'
+

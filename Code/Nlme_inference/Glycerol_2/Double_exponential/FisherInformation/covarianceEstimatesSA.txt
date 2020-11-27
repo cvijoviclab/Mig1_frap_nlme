@@ -1,0 +1,15 @@
+A1_pop,4.0724e-5,0.00065643,8.2329e-5,-6.7419,-4.3621e-9,nan,-6.2936e-10,nan,nan,nan,nan,-9.5201e-8,nan,nan,-5.042e-10
+tau1_pop,0.00065643,0.059014,0.00076783,-16.698,-3.678e-5,nan,-9.0597e-8,nan,nan,nan,nan,-4.6419e-5,nan,nan,6.2376e-6
+A2_pop,8.2329e-5,0.00076783,0.00017336,-15.099,7.9807e-7,nan,2.7835e-11,nan,nan,nan,nan,7.4181e-7,nan,nan,-6.4971e-8
+tau2_pop,-6.7419,-16.698,-15.099,1.6534e+6,-0.42406,nan,-0.00041829,nan,nan,nan,nan,-0.45448,nan,nan,0.0027089
+omega_A1,-4.3621e-9,-3.678e-5,7.9807e-7,-0.42406,2.3893e-6,nan,4.5866e-10,nan,nan,nan,nan,2.248e-6,nan,nan,2.3276e-8
+corr_tau1_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_A2_A1,-6.2936e-10,-9.0597e-8,2.7835e-11,-0.00041829,4.5866e-10,nan,4.2796e-12,nan,nan,nan,nan,5.6557e-10,nan,nan,1.3083e-10
+corr_tau2_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_tau1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_tau1_A2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_tau2_tau1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_A2,-9.5201e-8,-4.6419e-5,7.4181e-7,-0.45448,2.248e-6,nan,5.6557e-10,nan,nan,nan,nan,2.1429e-6,nan,nan,2.3554e-8
+corr_tau2_A2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_tau2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+a,-5.042e-10,6.2376e-6,-6.4971e-8,0.0027089,2.3276e-8,nan,1.3083e-10,nan,nan,nan,nan,2.3554e-8,nan,nan,1.0672e-6

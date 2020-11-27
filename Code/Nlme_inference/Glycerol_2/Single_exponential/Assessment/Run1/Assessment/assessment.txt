@@ -1,0 +1,8 @@
+Parameters,Run_1
+A1_pop,0.508005
+a,0.0617064
+corr_tau1_A1,0.996778
+omega_A1,0.170313
+omega_tau1,0.163885
+tau1_pop,4.03372
+-2LL,-4816.39

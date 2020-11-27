@@ -1,0 +1,87 @@
+********************************************************************************
+*                        Single_exponential.mlxtran                            *
+*                        November 23, 2020 at 08:34:48                         *
+*                        Monolix version : 5.1.1                               *
+********************************************************************************
+
+
+POPULATION PARAMETERS ESTIMATION _______________________________________________
+
+Fixed Effects ----------------------------     se_sa    rse(%)
+A1_pop                         :     0.508    0.0196      3.86
+tau1_pop                       :      4.03     0.177      4.39
+
+Standard Deviation of the Random Effects -
+omega_A1                       :      0.17    0.0275      16.2
+omega_tau1                     :     0.164    0.0334      20.4
+
+Correlations -----------------------------
+corr_tau1_A1                   :     0.997    0.0052     0.521
+
+Error Model Parameters -------------------
+a                              :    0.0617   0.00104      1.68
+
+Elapsed time (seconds) :       14
+CPU time     (seconds) :       32
+
+ _______________________________________________________________________________
+
+
+
+CORRELATION MATRIX OF THE ESTIMATES ____________________________________________
+
+
+Fisher by Stochastic Approximation ---------------------------------------------
+Correlation Matrix :
+      A1_pop         1
+    tau1_pop   0.84253         1
+    omega_A1  0.011865-0.0075572         1
+corr_tau1_A1  0.092517  0.061339   0.29611         1
+  omega_tau1  0.079338  0.078172   0.85789   0.56512         1
+           a 0.0029641 0.0094614   0.00022 0.0060999  0.010102         1
+                               min       max   max/min
+Eigen values           :     0.086       2.2        26
+
+Elapsed time (seconds) :    0.81
+CPU time     (seconds) :       2
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+
+INDIVIDUAL PARAMETERS ESTIMATION _______________________________________________
+
+
+Individual Parameters Estimation by Conditional Mean ---------------------------
+             min        Q1    median        Q3       max
+A1   :     0.352     0.446     0.488     0.589     0.666
+tau1 :      2.83      3.56      3.88      4.65      5.22
+
+Elapsed time (seconds) :     1.5
+CPU time     (seconds) :       3
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+
+LOG-LIKELIHOOD ESTIMATION ______________________________________________________
+                                                            (is)
+
+-2 x log-likelihood                             :       -4816.39
+Akaike Information Criteria               (AIC) :       -4804.39
+Corrected Bayesian Information Criteria  (BICc) :       -4784.92
+Bayesian Information Criteria             (BIC) :       -4798.41
+
+Elapsed time                          (seconds) :           7.36
+CPU time                              (seconds) :          17.00
+
+
+[Importance Sampling] Standard error        : 0.060
+                      Sampling distribution : T-distribution with 5 degrees of freedom
+
+ _______________________________________________________________________________
+

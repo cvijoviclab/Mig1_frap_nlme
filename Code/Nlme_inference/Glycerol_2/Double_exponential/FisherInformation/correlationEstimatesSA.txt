@@ -1,0 +1,15 @@
+A1_pop,1,0.42344,0.97984,-0.82162,-0.00044223,nan,-0.047673,nan,nan,nan,nan,-0.010191,nan,nan,-7.648e-5
+tau1_pop,0.42344,1,0.24006,-0.053455,-0.09795,nan,-0.18027,nan,nan,nan,nan,-0.13053,nan,nan,0.024855
+A2_pop,0.97984,0.24006,1,-0.89183,0.039213,nan,0.0010219,nan,nan,nan,nan,0.038487,nan,nan,-0.0047766
+tau2_pop,-0.82162,-0.053455,-0.89183,1,-0.21336,nan,-0.15725,nan,nan,nan,nan,-0.24145,nan,nan,0.0020393
+omega_A1,-0.00044223,-0.09795,0.039213,-0.21336,1,nan,0.14344,nan,nan,nan,nan,0.9935,nan,nan,0.014576
+corr_tau1_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_A2_A1,-0.047673,-0.18027,0.0010219,-0.15725,0.14344,nan,1,nan,nan,nan,nan,0.18676,nan,nan,0.061219
+corr_tau2_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_tau1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_tau1_A2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_tau2_tau1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_A2,-0.010191,-0.13053,0.038487,-0.24145,0.9935,nan,0.18676,nan,nan,nan,nan,1,nan,nan,0.015575
+corr_tau2_A2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_tau2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+a,-7.648e-5,0.024855,-0.0047766,0.0020393,0.014576,nan,0.061219,nan,nan,nan,nan,0.015575,nan,nan,1
