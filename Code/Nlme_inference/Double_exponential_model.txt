@@ -1,0 +1,14 @@
+DESCRIPTION: Double exponential model for fitting FRAP-data 
+
+Variables:
+- intensity, normalised intensity measured by the FRAP-experiments 
+
+ [LONGITUDINAL]
+input = {A1, tau1, A2, tau2}
+
+EQUATION:
+; Simple exponential model 
+intensity = A1 * (1 - exp(-tau1 * t)) +  A2 * (1 - exp(-tau2 * t))
+
+OUTPUT:
+output = {intensity}
