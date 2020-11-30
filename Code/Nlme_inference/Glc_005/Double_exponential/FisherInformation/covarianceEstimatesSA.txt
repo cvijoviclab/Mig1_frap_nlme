@@ -1,0 +1,15 @@
+A1_pop,0.00018921,0.00034415,3.2139e-5,-0.15725,-4.682e-5,nan,nan,nan,-0.00014449,nan,nan,-2.2366e-5,4.8577e-9,-0.00016714,2.0252e-8
+tau1_pop,0.00034415,0.73589,-0.0095028,-1.5437,0.00052772,nan,nan,nan,-0.0029441,nan,nan,-0.00050171,-3.3439e-7,0.00032806,1.3505e-5
+A2_pop,3.2139e-5,-0.0095028,0.00013625,-0.016952,-1.0147e-5,nan,nan,nan,5.3494e-5,nan,nan,9.3281e-6,-7.3729e-10,-6.6105e-6,8.1287e-9
+tau2_pop,-0.15725,-1.5437,-0.016952,139.59,0.031617,nan,nan,nan,0.076186,nan,nan,0.011372,2.9411e-6,0.10487,-0.0002242
+omega_A1,-4.682e-5,0.00052772,-1.0147e-5,0.031617,0.0021872,nan,nan,nan,0.006106,nan,nan,0.00093755,-1.1519e-7,0.0075448,-1.8172e-6
+corr_tau1_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_A2_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_tau2_A1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_tau1,-0.00014449,-0.0029441,5.3494e-5,0.076186,0.006106,nan,nan,nan,0.019507,nan,nan,0.0030292,-3.3568e-7,0.021889,-4.1192e-6
+corr_tau1_A2,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+corr_tau2_tau1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+omega_A2,-2.2366e-5,-0.00050171,9.3281e-6,0.011372,0.00093755,nan,nan,nan,0.0030292,nan,nan,0.00047094,-5.1846e-8,0.0033728,-6.1471e-7
+corr_tau2_A2,4.8577e-9,-3.3439e-7,-7.3729e-10,2.9411e-6,-1.1519e-7,nan,nan,nan,-3.3568e-7,nan,nan,-5.1846e-8,2.9847e-11,-4.0326e-7,-9.7576e-11
+omega_tau2,-0.00016714,0.00032806,-6.6105e-6,0.10487,0.0075448,nan,nan,nan,0.021889,nan,nan,0.0033728,-4.0326e-7,0.026309,-5.8651e-6
+a,2.0252e-8,1.3505e-5,8.1287e-9,-0.0002242,-1.8172e-6,nan,nan,nan,-4.1192e-6,nan,nan,-6.1471e-7,-9.7576e-11,-5.8651e-6,2.3787e-6

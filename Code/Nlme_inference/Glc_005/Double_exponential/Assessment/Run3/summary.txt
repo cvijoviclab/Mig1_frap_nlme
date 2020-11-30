@@ -1,0 +1,37 @@
+********************************************************************************
+*                        Double_exponential.mlxtran                            *
+*                        November 23, 2020 at 08:28:51                         *
+*                        Monolix version : 5.1.1                               *
+********************************************************************************
+
+
+POPULATION PARAMETERS ESTIMATION _______________________________________________
+
+Fixed Effects ----------------------------
+A1_pop                         :     0.163
+tau1_pop                       :      8.21
+A2_pop                         :     0.346
+tau2_pop                       :      19.8
+
+Standard Deviation of the Random Effects -
+omega_A1                       :     0.262
+omega_tau1                     :      1.88
+omega_A2                       :     0.177
+omega_tau2                     :      1.27
+
+Correlations -----------------------------
+corr_A2_A1                     :     0.448
+corr_tau1_A1                   :   -0.0441
+corr_tau2_A1                   :    -0.987
+corr_tau1_A2                   :    -0.913
+corr_tau2_A2                   :    -0.314
+corr_tau2_tau1                 :   -0.0999
+
+Error Model Parameters -------------------
+a                              :     0.071
+
+Elapsed time (seconds) :       11
+CPU time     (seconds) :       29
+
+ _______________________________________________________________________________
+
