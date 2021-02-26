@@ -4,11 +4,11 @@ Variables:
 - intensity, normalised intensity measured by the FRAP-experiments 
 
  [LONGITUDINAL]
-input = {A1, tau1}
+input = {A1, tau1,I0}
 
 EQUATION:
 ; Simple exponential model 
-intensity = A1 * (1 - exp(-tau1 * t))
+intensity = I0+ A1 * (1 - exp(-tau1 * t))
 
 OUTPUT:
 output = {intensity}

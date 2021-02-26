@@ -1,0 +1,608 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" class="lixoftchart parameterDistribution" width="720" height="718" style="font-family: &quot;Source Sans Pro&quot;, -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-weight: normal;"><style>svg {
+--primary--1:rgba(21, 140, 186, 0.1);
+--primary--2:rgba(21, 140, 186, 0.2);
+--primary--3:rgba(21, 140, 186, 0.3);
+--primary--4:rgba(21, 140, 186, 0.4);
+--primary--5:rgba(21, 140, 186, 0.5);
+--primary--6:rgba(21, 140, 186, 0.6);
+--primary--7:rgba(21, 140, 186, 0.7);
+--primary--8:rgba(21, 140, 186, 0.8);
+--primary--9:rgba(21, 140, 186, 0.9);
+--secondary--1:rgba(240, 240, 240, 0.1);
+--secondary--2:rgba(240, 240, 240, 0.2);
+--secondary--3:rgba(240, 240, 240, 0.3);
+--secondary--4:rgba(240, 240, 240, 0.4);
+--secondary--5:rgba(240, 240, 240, 0.5);
+--secondary--6:rgba(240, 240, 240, 0.6);
+--secondary--7:rgba(240, 240, 240, 0.7);
+--secondary--8:rgba(240, 240, 240, 0.8);
+--secondary--9:rgba(240, 240, 240, 0.9);
+--success--1:rgba(40, 182, 44, 0.1);
+--success--2:rgba(40, 182, 44, 0.2);
+--success--3:rgba(40, 182, 44, 0.3);
+--success--4:rgba(40, 182, 44, 0.4);
+--success--5:rgba(40, 182, 44, 0.5);
+--success--6:rgba(40, 182, 44, 0.6);
+--success--7:rgba(40, 182, 44, 0.7);
+--success--8:rgba(40, 182, 44, 0.8);
+--success--9:rgba(40, 182, 44, 0.9);
+--info--1:rgba(117, 202, 235, 0.1);
+--info--2:rgba(117, 202, 235, 0.2);
+--info--3:rgba(117, 202, 235, 0.3);
+--info--4:rgba(117, 202, 235, 0.4);
+--info--5:rgba(117, 202, 235, 0.5);
+--info--6:rgba(117, 202, 235, 0.6);
+--info--7:rgba(117, 202, 235, 0.7);
+--info--8:rgba(117, 202, 235, 0.8);
+--info--9:rgba(117, 202, 235, 0.9);
+--warning--1:rgba(255, 133, 27, 0.1);
+--warning--2:rgba(255, 133, 27, 0.2);
+--warning--3:rgba(255, 133, 27, 0.3);
+--warning--4:rgba(255, 133, 27, 0.4);
+--warning--5:rgba(255, 133, 27, 0.5);
+--warning--6:rgba(255, 133, 27, 0.6);
+--warning--7:rgba(255, 133, 27, 0.7);
+--warning--8:rgba(255, 133, 27, 0.8);
+--warning--9:rgba(255, 133, 27, 0.9);
+--danger--1:rgba(255, 65, 54, 0.1);
+--danger--2:rgba(255, 65, 54, 0.2);
+--danger--3:rgba(255, 65, 54, 0.3);
+--danger--4:rgba(255, 65, 54, 0.4);
+--danger--5:rgba(255, 65, 54, 0.5);
+--danger--6:rgba(255, 65, 54, 0.6);
+--danger--7:rgba(255, 65, 54, 0.7);
+--danger--8:rgba(255, 65, 54, 0.8);
+--danger--9:rgba(255, 65, 54, 0.9);
+--light--1:rgba(246, 246, 246, 0.1);
+--light--2:rgba(246, 246, 246, 0.2);
+--light--3:rgba(246, 246, 246, 0.3);
+--light--4:rgba(246, 246, 246, 0.4);
+--light--5:rgba(246, 246, 246, 0.5);
+--light--6:rgba(246, 246, 246, 0.6);
+--light--7:rgba(246, 246, 246, 0.7);
+--light--8:rgba(246, 246, 246, 0.8);
+--light--9:rgba(246, 246, 246, 0.9);
+--dark--1:rgba(85, 85, 85, 0.1);
+--dark--2:rgba(85, 85, 85, 0.2);
+--dark--3:rgba(85, 85, 85, 0.3);
+--dark--4:rgba(85, 85, 85, 0.4);
+--dark--5:rgba(85, 85, 85, 0.5);
+--dark--6:rgba(85, 85, 85, 0.6);
+--dark--7:rgba(85, 85, 85, 0.7);
+--dark--8:rgba(85, 85, 85, 0.8);
+--dark--9:rgba(85, 85, 85, 0.9);
+--theme-scheme--1:#158CBA;
+--theme-scheme--2:#3e82bf;
+--theme-scheme--3:#6475bc;
+--theme-scheme--4:#8566b0;
+--theme-scheme--5:#a05599;
+--theme-scheme--6:#b0447c;
+--theme-scheme-lg--1:#158cba;
+--theme-scheme-lg--2:#1dade5;
+--theme-scheme-lg--3:#4abeeb;
+--theme-scheme-lg--4:#78cef0;
+--theme-scheme-lg--5:#b0447c;
+--theme-scheme-lg--6:#c36495;
+--theme-scheme-lg--7:#d189ae;
+--theme-scheme-lg--8:#e0adc7;
+--theme-scheme-lg--9:#618f35;
+--theme-scheme-lg--10:#7ab443;
+--theme-scheme-lg--11:#94c664;
+--theme-scheme-lg--12:#aed38a;
+--blue:#158CBA;
+--indigo:#6610f2;
+--purple:#6f42c1;
+--pink:#e83e8c;
+--red:#FF4136;
+--orange:#fd7e14;
+--yellow:#FF851B;
+--green:#28B62C;
+--teal:#20c997;
+--cyan:#75CAEB;
+--white:#fff;
+--gray:#999;
+--gray-dark:#333;
+--primary:#158CBA;
+--secondary:#f0f0f0;
+--success:#28B62C;
+--info:#75CAEB;
+--warning:#FF851B;
+--danger:#FF4136;
+--light:#f6f6f6;
+--dark:#555;
+--breakpoint-xs:0;
+--breakpoint-sm:576px;
+--breakpoint-md:768px;
+--breakpoint-lg:992px;
+--breakpoint-xl:1200px;
+--font-family-sans-serif:"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+--font-family-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+--mm-color-background:;
+--graphical-mode-icon-display:none;
+
+}
+html, body { height: 100%; }
+body { margin: 0px; overflow: hidden; }
+.lixoftchart-container { display: flex; flex-direction: column; height: 100%; }
+.lixoftchart { width: 100%; height: 100%; flex: 1 1 0%; }
+.lixoftchart-header { height: 34px; }
+.main { flex: 1 1 0%; height: 100%; width: 100%; }
+.footer { margin: 0px; }
+.checkinit-footer { max-height: 230px; overflow-y: auto; }
+.page, .subpage { height: 100%; display: none; }
+.page.active, .subpage.active { display: block; }
+.axes, .grid { pointer-events: none; }
+.axis path, .axis line { fill: none; shape-rendering: crispEdges; }
+.tick { font-family: sans-serif; }
+.line { fill: none; }
+.tick line { stroke-width: 1px; }
+.grid line { opacity: 0.2; }
+.title { pointer-events: none; font-weight: 400; }
+.axis-label { text-anchor: middle; }
+.axis-label-unit { font-family: monospace; font-size: smaller; }
+.label-subscript { baseline-shift: sub; font-size: 0.8em; }
+.zoomable-content, .brushable-content { cursor: crosshair; }
+rect.zoom { fill: rgb(221, 221, 221); stroke: steelblue; fill-opacity: 0.5; }
+g.brush &gt; rect.selection { stroke-width: 0; }
+.handle--custom { fill: rgb(122, 122, 122); fill-opacity: 1; stroke: rgb(122, 122, 122); stroke-width: 2px; display: inline !important; }
+.log-filtered { display: none; }
+.dot { stroke: none; }
+.censObservations.highlighted:not(.lambdaz-observation), .censObservations[data--radius]:not(.lambdaz-observation) { fill: brown !important; }
+.spline { fill: none; }
+.regressionLine { fill: none; }
+.convergence-line { fill: none; }
+.percentile-line, .cdf { stroke-width: 1px; }
+.bar { shape-rendering: crispEdges; }
+.vertical-line, .horizontal-line { shape-rendering: crispEdges; }
+.k1, .bound { shape-rendering: crispEdges; }
+.outlier.dot { fill: none; }
+.boxplot { font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: sans-serif; }
+.box-element line, .box-element rect { stroke-opacity: 1; shape-rendering: crispEdges; }
+.boxplot .outlier line { fill: none; }
+.boxplot .box-underlay { fill: white; fill-opacity: 1; }
+.boxplot .label { font-size: 12px; }
+.arrow-marker { stroke-width: 0; font-size: 20px; fill: red; dominant-baseline: central; }
+.layout-link { padding: 1px 5px !important; }
+.sublayout-controls { min-height: 20px; transition: opacity 0.5s ease-in-out; background-color: transparent; opacity: 0.2; cursor: pointer; }
+.pagination { transition: opacity 0.5s ease-in-out; }
+.sublayout-controls .pagination { opacity: 0; }
+.sublayout-controls:hover { transition: none; opacity: 0.9; }
+.sublayout-controls:hover .pagination { transition: none; opacity: 1; }
+.plot-grid, .subplot-grid { margin: 0px; min-width: 0px; }
+.grid-cell { outline: rgb(221, 221, 221) solid 1px; cursor: text; position: absolute; }
+.plot-cell { background-color: rgba(119, 33, 111, 0.298039); }
+.matrix-diagonal-cell { background-color: rgb(174, 167, 159) !important; }
+.plot-cell.selected { background-color: rgb(119, 33, 111); }
+.plot-cell:hover, .plot-cell.hovered { background-color: rgb(243, 152, 20); }
+.plot-cell.ui-selecting { background-color: rgb(233, 84, 32); }
+.cells-selector { cursor: pointer; width: 0px; height: 0px; position: absolute; border: 10px solid rgba(119, 33, 111, 0.298039); }
+.cells-selector.selected { border-color: rgb(119, 33, 111); }
+.cells-selector.rows, .cells-selector.all { border-top-color: transparent !important; border-bottom-color: transparent !important; border-right-color: transparent !important; }
+.cells-selector.cols { border-top-color: transparent !important; border-left-color: transparent !important; border-right-color: transparent !important; }
+.cells-selector.all { transform: rotate(-45deg); }
+.cells-selector:hover { border-color: rgb(243, 152, 20); }
+.layout-grid, .sublayout-grid { padding: 0px; margin: 0px; min-width: 0px; background-color: transparent; border: none; box-shadow: none !important; }
+.layout-grid-content { border-collapse: collapse; border: 1px solid rgb(221, 221, 221); }
+.layout-cell { background-color: rgba(119, 33, 111, 0.298039); border: 1px solid rgb(221, 221, 221); min-width: 20px; width: 20px; height: 20px; cursor: pointer; }
+.layout-cell.selected { background-color: rgb(119, 33, 111); }
+.layout-cell.selecting { background-color: rgb(233, 84, 32); }
+.layout-container { padding: 10px 15px; align-items: center; }
+.layout-controls { display: flex; justify-content: space-between; align-items: center; }
+.layout-controls &gt; .layout-controls-wrapper { display: flex; align-items: baseline; }
+.layout-controls .btn { border: 0px; border-radius: 0px; white-space: nowrap; padding: 4px 8px !important; }
+.layout-controls .btn.toggle-controls-btn { margin-left: 1rem !important; }
+.pagination input { color: inherit; background: transparent; border: 0px; outline: none; }
+.contrasted-chart-header-btn:not(:hover) { background: rgba(255, 255, 255, 0.2) !important; }
+.message-banner { position: fixed; left: 0px; width: 100%; margin-bottom: 0px; z-index: 10; }
+.message-banner.top { top: 0px; }
+.message-banner.bottom { bottom: 0px; }
+.legend { box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 17px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px; z-index: 10; }
+.legend:not(.no-move) { cursor: move !important; }
+.legend-glyph:not(.aa) { shape-rendering: crispEdges; }
+.legend-group-label { font-weight: bold; }
+.ui-selectable-helper { z-index: 1100; }
+.ui-selectable-helper.no-top { border-top: 0px; }
+.ui-selectable-helper.no-right { border-right: 0px; }
+.ui-selectable-helper.no-bottom { border-bottom: 0px; }
+.ui-selectable-helper.no-left { border-left: 0px; }
+.print-preview &gt; .modal-dialog { position: absolute; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; }
+.page-preview { border: 1px dashed rgb(51, 51, 51); margin: 0px auto; }
+.page-preview.portrait { height: 60vh; width: 42.42vh; }
+.page-preview.landscape { width: 60vw; height: 42.42vw; }
+.tooltip-key::after { content: ": "; }
+.brushed-out, .bar.brushed-out { fill: rgb(204, 204, 204) !important; }
+.infowrapper { pointer-events: none; }
+.information { overflow-y: overlay; overflow-x: hidden; padding: 0.5em; font-family: monospace; box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 17px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px; display: inline-block; float: right; cursor: move; pointer-events: all; }
+.information span { float: left; clear: both; }
+.axis path, .axis line, .grid line{
+stroke: #636363;
+}
+
+.tick text{
+fill: #636363;
+}
+
+.axis path, .axis line{
+stroke-width: 1px;
+}
+
+.bar-label{
+fill: #000000;
+}
+
+.bar-label{
+font-size: 10px;
+}
+
+.bin-value{
+stroke: red;
+}
+
+.bin-value{
+}
+
+.bin-value{
+stroke-width: 1px;
+}
+
+.bound{
+stroke: red;
+}
+
+.bound{
+stroke-width: 2px;
+}
+
+.bound.bounded{
+stroke: limegreen;
+}
+
+.baseline{
+stroke: #000000;
+}
+
+.baseline{
+}
+
+.baseline{
+stroke-width: 1px;
+}
+
+.box-element rect{
+fill: #8fbbd9;
+}
+
+.boxplot .outlier line{
+stroke: #ff0000;
+}
+
+.boxplot .outlier line{
+stroke-width: 1px;
+}
+
+.quartile{
+stroke: #000000;
+}
+
+.quartile{
+stroke-dasharray: 3, 2;
+}
+
+.quartile{
+stroke-width: 1px;
+}
+
+.box-element line{
+stroke: #000000;
+}
+
+.box-element line{
+stroke-width: 1px;
+}
+
+.censEvents{
+fill: #d44242;
+}
+
+.censEvents{
+stroke: #d44242;
+}
+
+.censObservations{
+fill: #d44242;
+}
+.censObsIntervals{stroke:rgb(212,66,66);stroke-opacity:0.498039;}
+
+.censObsIntervals{
+}
+
+.censObsIntervals{
+stroke-width: 5px;
+}
+
+.convergence-line{
+stroke: #4682B4;
+}
+
+.cvIndicator-line{
+stroke: #990099;
+}
+
+.dosingTimes{
+stroke: #000000;
+}
+
+.dosingTimes{
+stroke-dasharray: 8, 8;
+}
+
+.dosingTimes{
+stroke-width: 2px;
+}
+
+line.empirical, path.empirical{
+stroke: #4682B4;
+}
+
+.dot.empirical{
+fill: #4682B4;
+}
+
+line.empirical, path.empirical{
+}
+
+line.empirical, path.empirical{
+stroke-width: 2px;
+}
+
+.fisher_linearization&gt;.bar{
+fill: #4682B4;
+}
+
+.fisher_stochasticApproximation&gt;.bar{
+fill: #98abc5;
+}
+
+.focus &gt; line, .focus &gt; circle{
+stroke: blue;
+}
+
+.lixoftchart{
+background-color: #ffffff;
+}
+
+.sublayout-controls:hover{
+background-color: #ffffff;
+}
+
+.bar:hover, .band-overlay:hover{
+fill: orange !important;
+}
+
+g.bar, g.histogram{
+fill: rgb(115, 130, 144);
+}
+
+g.bar, g.histogram{
+stroke: #ffffff;
+}
+
+g.bar, g.histogram{
+stroke-width: 1px;
+}
+
+.information{
+background-color: #FFFFCC;
+}
+
+.information{
+fill: #FFFFCC;
+}
+
+.information{
+font-size: 12px;
+}
+
+.information{
+color: #000000;
+}
+
+.k1{
+stroke: red;
+}
+
+.k1{
+stroke-width: 1px;
+}
+
+.axis-label.global{
+fill: rgb(255, 255, 255);
+}
+
+.axis-label.global{
+font-size: 14px;
+}
+
+.legend-frame{
+fill: #ffffff;
+}
+
+.legend-frame{
+stroke: #000000;
+}
+
+.legend-frame{
+stroke-width: 0px;
+}
+
+.legend text{
+fill: #000000;
+}
+
+.legend{
+font-size: 12px;
+}
+
+.ll_importanceSampling&gt;.bar{
+fill: #98abc5;
+}
+
+.ll_linearization&gt;.bar{
+fill: #4682B4;
+}
+
+path.median, line.median{
+stroke: #000000;
+}
+
+path.median, line.median{
+stroke-dasharray: 5,3;
+}
+
+path.median, line.median{
+stroke-width: 1px;
+}
+
+.observation{
+fill: #4682B4;
+}
+
+.observation{
+stroke: #4682B4;
+}
+
+.observation-line{
+stroke-width: 1.5px;
+}
+
+.obsStatisticsValues{
+font-size: 10px;
+}
+
+.outlier.area{
+fill: #ff0000;
+}
+
+.outlier.dot{
+stroke: #ff0000;
+}
+
+.outlier.dot{
+stroke-width: 1px;
+}
+.prediction-interval.median{fill:rgb(255,0,0);fill-opacity:0.2;}
+.prediction-interval.low, .prediction-interval.up{fill:rgb(0,128,255);fill-opacity:0.298039;}
+.plot-background{fill:rgb(250,250,255);fill-opacity:0.6;}
+.bar{stroke:rgb(250,250,255);stroke-opacity:0.6;}
+
+.regressionLine{
+stroke: #bd2671;
+}
+
+.regressionLine{
+}
+
+.regressionLine{
+stroke-width: 1.5px;
+}
+
+.spline{
+stroke: #eba213;
+}
+
+.spline{
+}
+
+.spline{
+stroke-width: 1.5px;
+}
+
+.axis-label.sublabel, .matrix-diagonal-label{
+fill: rgb(255, 255, 255);
+}
+
+.axis-label.sublabel, .matrix-diagonal-label{
+font-size: 12px;
+}
+
+line.theoretical, path.theoretical{
+stroke: #000000;
+}
+
+.dot.theoretical{
+fill: #000000;
+}
+
+line.theoretical, path.theoretical{
+}
+
+line.theoretical, path.theoretical{
+stroke-width: 1.5px;
+}
+
+.tick{
+font-size: 10px;
+}
+
+.title{
+fill: #000000;
+}
+
+.title{
+font-size: 14px;
+}
+
+.axis-label-unit{
+fill: #999;
+}
+
+.userGuide-dot{
+fill: red;
+}
+
+.userGuide-line{
+stroke: red;
+}
+
+.userGuide-dot{
+r: 3;
+}
+
+.userGuide-line{
+}
+
+.userGuide-line{
+stroke-width: 1px;
+}
+
+.brushed-out, .brushed-out.bar{
+fill: #ccc !important;
+}
+.not-censObservations{display:none;}
+.not-empirical{display:none;}
+.grid,.__grid{display:none;}
+.hasIOV,.__hasIOV{display:none;}
+.not-hasMean{display:none;}
+.not-hasMode{display:none;}
+.not-histogram{display:none;}
+.not-isIndivEstimMean{display:none;}
+.legend,.__legend{display:none;}
+.linkedZoom,.__linkedZoom{display:none;}
+.not-observations{display:none;}
+.shrinkage,.__shrinkage{display:none;}
+.splitted,.__splitted{display:none;}
+.not-theoretical{display:none;}
+.xEqualDomains,.__xEqualDomains{display:none;}
+.xLog,.__xLog{display:none;}
+.yEqualDomains,.__yEqualDomains{display:none;}
+.yLog,.__yLog{display:none;}
+.not-bottomAxisLine{display:none;}
+.not-bottomAxisTickLabels{display:none;}
+.not-leftAxisLine{display:none;}
+.not-leftAxisTickLabels{display:none;}
+.rightAxisLine,.__rightAxisLine{display:none;}
+.not-rightAxisTickLabels{display:none;}
+.topAxisLine,.__topAxisLine{display:none;}
+.not-topAxisTickLabels{display:none;}
+.freehand-guides-layer,.__freehand-guides-layer{display:none;}
+</style><g class="lixoftchart-scaler"><g class="lixoftchart-translator" transform="translate(50,40)"><g class="x axis" transform="translate(0, 644)"><text class="x axis-label global" x="315" y="-10" style="text-anchor: middle;"><tspan class="axis-label-text"/><tspan class="axis-label-unit"/></text></g><g class="y axis"><text class="y axis-label global" transform="rotate(-90)" x="-322" y="-30" style="text-anchor: middle;"><tspan class="axis-label-text"/><tspan class="axis-label-unit"/></text></g><g class="page plot-page active" data-index="0"><g class="plot-container page-element" width="630" height="604" data-index="0" data-col="0" data-row="0" transform="translate(0,0)"><g class="subpage plot-page active" data-index="0"><g class="plot page-element" width="290" height="277" id="All-A1-pdf" data-index="0" title="A1-pdf" transform="translate(0,0)"><rect width="290" height="277" class="plot-background"/><svg class="plot-content zoomable-content" width="290" height="277"><g class="histogram"><rect data-legend="Empirical distribution" data-tooltip="2.5%" class="bar empirical" x="78.38957096280166" y="237.02886002886004" width="5.750618741868507" height="40.97113997113996" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="3%" class="bar empirical" x="84.14018970467018" y="229.03463203463204" width="5.750618741868507" height="48.96536796536796" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="9.5%" class="bar empirical" x="89.89080844653867" y="125.10966810966812" width="5.750618741868507" height="152.89033189033188" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="7.5%" class="bar empirical" x="95.64142718840722" y="157.08658008658008" width="5.750618741868507" height="120.91341991341992" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="13%" class="bar empirical" x="101.39204593027571" y="69.15007215007216" width="5.750618741868507" height="208.84992784992784" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="13.5%" class="bar empirical" x="107.1426646721442" y="61.155844155844164" width="5.750618741868507" height="216.84415584415584" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="16.5%" class="bar empirical" x="112.89328341401273" y="13.190476190476204" width="5.750618741868507" height="264.8095238095238" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="12%" class="bar empirical" x="118.64390215588128" y="85.13852813852816" width="5.750618741868507" height="192.86147186147184" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="8.5%" class="bar empirical" x="124.39452089774977" y="141.09812409812412" width="5.750618741868507" height="136.90187590187588" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="5.5%" class="bar empirical" x="130.14513963961826" y="189.06349206349208" width="5.750618741868507" height="88.93650793650792" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="3.5%" class="bar empirical" x="135.8957583814868" y="221.04040404040404" width="5.750618741868507" height="56.95959595959596" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="2%" class="bar empirical" x="141.64637712335528" y="245.02308802308804" width="5.750618741868507" height="32.976911976911964" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="1.5%" class="bar empirical" x="147.39699586522377" y="253.01731601731603" width="5.750618741868507" height="24.982683982683966" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="0.5%" class="bar empirical" x="153.14761460709232" y="269.00577200577203" width="5.750618741868507" height="8.99422799422797" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="1%" class="bar empirical" x="158.89823334896084" y="261.011544011544" width="5.750618741868507" height="16.988455988455996" data-legend-class="empirical"/></g><g class="distribution-functions"><path data-legend="Theoretical distribution" class="theoretical line autoscale cdf" d="M13.181818181818187,276.9999999999648L15.84481175390266,276.9999999997402L18.507805325987157,276.9999999982686L21.17079889807163,276.99999998953183L23.833792470156105,276.9999999423482L26.4967860422406,276.99999970962654L29.159779614325075,276.99999865741825L31.82277318640955,276.9999942810911L34.485766758494044,276.99997748145495L37.14876033057852,276.9999177736471L39.811753902662986,276.9997207186805L42.47474747474749,276.99911512494657L45.13774104683196,276.9973774908627L47.80073461891643,276.99271090556647L50.46372819100091,276.98095317606595L53.126721763085406,276.9530989350056L55.78971533516987,276.89092538863133L58.452708907254376,276.75991277442284L61.11570247933885,276.4988138911002L63.778696051423324,276.005847723726L66.4416896235078,275.1227093566402L69.10468319559229,273.61935695171326L71.76767676767678,271.184507375811L74.43067033976126,267.4282598436668L77.09366391184574,261.90338107352716L79.75665748393021,254.14974027647997L82.41965105601467,243.7619065520356L85.08264462809922,230.47359454808986L87.74563820018368,214.24596355680666L90.40863177226815,195.34183302131635L93.07162534435263,174.36669769458558L95.7346189164371,152.2611821807514L98.39761248852157,130.2380117938237L101.06060606060605,109.66790592893543L103.72359963269052,91.93016087187038L106.38659320477504,78.25202893738128L109.04958677685951,69.56405106408886L111.71258034894399,66.39548205805212L114.37557392102846,68.8257661671258L117.03856749311299,76.49690325162064L119.70156106519745,88.68029939248592L122.36455463728193,104.38286627132231L125.0275482093664,122.47235234691576L127.69054178145088,141.80158124905856L130.35353535353536,161.31475569427369L133.01652892561984,180.12484785681676L135.67952249770428,197.55769590455913L138.34251606978876,213.16432725979914L141.0055096418733,226.7072886249274L143.66850321395776,238.1290146663844L146.33149678604224,247.51064569012624L148.99449035812677,255.02867169966703L151.6574839302112,260.91492979602856L154.32047750229572,265.42337593338505L156.9834710743802,268.8051176959115L159.64646464646464,271.291685461574L162.30945821854914,273.08552642319285L164.97245179063358,274.3561996583847L167.63544536271806,275.2406301334502L170.29843893480256,275.84591885350017L172.96143250688706,276.2534857919937L175.62442607897154,276.5236471878945L178.287419651056,276.7000357706324L180.95041322314054,276.8135268084726L183.613406795225,276.8855223204194L186.2764003673095,276.93057285180737L188.93939393939397,276.9583913084898L191.6023875114784,276.9753496652226L194.26538108356291,276.985559598724L196.92837465564736,276.9916327448313L199.59136822773183,276.99520310903125L202.25436179981634,276.99727835292816L204.91735537190084,276.9984713173149L207.5803489439853,276.9991497797376L210.2433425160698,276.9995316335645L212.90633608815432,276.9997443836046L215.5693296602388,276.9998617562264L218.23232323232327,276.9999258930934L220.89531680440774,276.9999606153114L223.5583103764922,276.9999792437752L226.2213039485767,276.9999891503578L228.88429752066114,276.9999943737396L231.5472910927456,276.99999710498815L234.21028466483014,276.9999985215956L236.87327823691462,276.9999992505676L239.5362718089991,276.9999996228192L242.19926538108356,276.99999981149443L244.862258953168,276.99999990643073L247.5252525252525,276.9999999538627L250.18824609733701,276.99999997739764L252.85123966942152,276.999999988997L255.51423324150596,276.99999999467656L258.17722681359044,276.9999999974399L260.8402203856749,276.999999998776L263.5032139577594,276.9999999994181L266.1662075298439,276.99999999972493L268.8292011019284,276.9999999998707L271.49219467401286,276.9999999999395L274.15518824609734,276.99999999997186L276.8181818181818,276.999999999987" data-legend-class="theoretical" fill="none"/></g><g class="userGuides"/></svg><g class="axes"><g class="bottom axis bottomAxisLine" transform="translate(0,277)" fill="none" text-anchor="middle"><path class="domain" stroke="#000" d="M0.5,6V0.5H290.5V6" fill="none"/><g class="tick" opacity="1" transform="translate(30.02455084682521,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.10</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(64.30823096327731,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.12</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(98.59191107972948,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.14</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(132.8755911961816,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.16</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(167.15927131263368,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.18</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(201.44295142908587,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.20</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(235.72663154553797,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.22</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(270.0103116619901,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.24</tspan></tspan></text></g><text class="axis-label sublabel bottom" x="145" y="25" style="text-anchor: middle;"><tspan class="transformed-label"><tspan class="label-block"><tspan class="label-subblock">A1</tspan></tspan></tspan><tspan class="axis-label-unit bottom"/></text></g><g class="left axis leftAxisLine" fill="none" text-anchor="end"><path class="domain" stroke="#000" d="M-6,277.5H0.5V0.5H-6" fill="none"/><g class="tick" opacity="1" transform="translate(0,277.5)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,227.21540703817664)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">10</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,176.93081407635324)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">20</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,126.64622111452988)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">30</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,76.36162815270649)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">40</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,26.077035190883095)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">50</tspan></tspan></text></g><text class="axis-label sublabel left" x="-138.5" transform="rotate(-90)" y="-30" style="text-anchor: middle;"><tspan class="transformed-label"><tspan class="label-block"><tspan class="label-subblock">density</tspan></tspan></tspan><tspan class="axis-label-unit left"/></text></g></g><defs><clipPath id="All-A1-pdf--freehand-guides-clip" class="freehand-guides-clip"><rect x="0" y="0" width="290" height="277"/></clipPath></defs></g><g class="plot page-element" width="290" height="277" id="All-tau1-pdf" data-index="1" title="tau1-pdf" transform="translate(340,0)"><rect width="290" height="277" class="plot-background"/><svg class="plot-content zoomable-content" width="290" height="277"><g class="histogram"><rect data-legend="Empirical distribution" data-tooltip="7%" class="bar empirical" x="13.181818181818182" y="171.47619047619045" width="13.872033252637667" height="106.52380952380955" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="13.5%" class="bar empirical" x="27.05385143445585" y="73.48979591836729" width="13.872033252637667" height="204.5102040816327" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="17.5%" class="bar empirical" x="40.92588468709352" y="13.190476190476147" width="13.872033252637667" height="264.80952380952385" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="16.5%" class="bar empirical" x="54.79791793973118" y="28.265306122448976" width="13.872033252637667" height="249.73469387755102" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="14%" class="bar empirical" x="68.66995119236886" y="65.9523809523809" width="13.872033252637667" height="212.0476190476191" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="9.5%" class="bar empirical" x="82.5419844450065" y="133.7891156462585" width="13.872033252637667" height="144.2108843537415" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="8.5%" class="bar empirical" x="96.4140176976442" y="148.8639455782313" width="13.872033252637667" height="129.1360544217687" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="3%" class="bar empirical" x="110.28605095028183" y="231.77551020408163" width="13.872033252637667" height="46.22448979591837" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="2%" class="bar empirical" x="124.1580842029195" y="246.85034013605443" width="13.872033252637667" height="31.149659863945573" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="3%" class="bar empirical" x="138.0301174555572" y="231.77551020408163" width="13.872033252637667" height="46.22448979591837" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="2%" class="bar empirical" x="151.90215070819482" y="246.85034013605443" width="13.872033252637667" height="31.149659863945573" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="0.5%" class="bar empirical" x="165.7741839608325" y="269.4625850340136" width="13.872033252637667" height="8.537414965986386" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="1.5%" class="bar empirical" x="179.64621721347018" y="254.3877551020408" width="13.872033252637667" height="23.612244897959187" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="0.5%" class="bar empirical" x="193.51825046610784" y="269.4625850340136" width="13.872033252637667" height="8.537414965986386" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="1%" class="bar empirical" x="207.3902837187455" y="261.9251700680272" width="13.872033252637667" height="16.074829931972772" data-legend-class="empirical"/></g><g class="distribution-functions"><path data-legend="Theoretical distribution" class="theoretical line autoscale cdf" d="M13.181818181818182,253.14060756910254L15.844811753902663,229.34293652376007L18.507805325987142,199.6392453503422L21.170798898071627,167.27831271718279L23.83379247015611,135.20898259597746L26.49678604224059,105.63122294976071L29.15977961432507,79.93585246306338L31.822773186409552,58.82426000244672L34.48576675849403,42.48203262253591L37.14876033057851,30.745230331669177L39.81175390266299,23.236136420365227L42.474747474747474,19.464342667143228L45.137741046831955,18.89708024982167L47.80073461891643,21.005176504491175L50.46372819100092,25.290967602690273L53.126721763085406,31.303503130079775L55.789715335169866,38.645181301311L58.45270890725436,46.972861372444015L61.11570247933885,55.99561175749676L63.77869605142332,65.47057472201874L66.44168962350781,75.19793230494219L69.10468319559229,85.01560553946013L71.76767676767676,94.79407467344302L74.43067033976125,104.43154258746469L77.09366391184574,113.84955420716133L79.75665748393021,122.98911443179549L82.41965105601469,131.80730363352262L85.08264462809917,140.27436435803438L87.74563820018365,148.37121934114487L90.40863177226814,156.08737511157392L93.07162534435261,163.41916439270827L95.7346189164371,170.36828230860277L98.39761248852157,176.94057476284377L101.06060606060605,183.14504146569124L103.72359963269054,188.9930204144031L106.38659320477502,194.49752486892928L109.0495867768595,199.67270783152185L111.71258034894399,204.53343264403773L114.37557392102846,209.09493152676072L117.03856749311294,213.3725366978234L119.70156106519742,217.38147115316724L122.3645546372819,221.13668828444443L125.02754820936639,224.65275130194206L127.69054178145088,227.94374494793007L130.35353535353534,231.0232132679019L133.01652892561984,233.9041182854774L135.67952249770428,236.59881533062065L138.3425160697888,239.11904152629546L141.00550964187326,241.47591456847562L143.66850321395773,243.67993945822312L146.33149678604224,245.74102127924147L148.99449035812674,247.66848247430696L151.65748393021119,249.47108337151536L154.32047750229566,251.15704495668464L156.98347107438016,252.73407309023693L159.64646464646464,254.20938353275898L162.30945821854914,255.58972727933377L164.9724517906336,256.8814158137777L167.63544536271806,258.090345984382L170.29843893480256,259.22202427621534L172.96143250688704,260.28159031446074L175.62442607897154,261.2738394811095L178.287419651056,262.20324456566436L180.9504132231405,263.073976401015L183.61340679522496,263.8899234597574L186.27640036730944,264.6547104050931L188.93939393939394,265.37171560503947L191.6023875114784,266.04408762980177L194.26538108356291,266.67476076046154L196.92837465564736,267.2664695431645L199.59136822773183,267.8217624271973L202.25436179981634,268.34301452808717L204.9173553719008,268.83243955844335L207.58034894398529,269.29210096994007L210.24334251606976,269.7239223498013L212.90633608815423,270.1296971145728L215.56932966023874,270.511097542973L218.23232323232318,270.869683188316L220.8953168044077,271.2069087094901L223.55831037649216,271.52413115780763L226.2213039485767,271.8226167552902L228.88429752066114,272.1035471981486L231.5472910927456,272.3680255173974L234.21028466483014,272.6170815267399L236.8732782369146,272.8516768860846L239.53627180899906,273.07270980732983L242.19926538108356,273.28101942738715L244.86225895316807,273.4773898718126L247.5252525252525,273.6625540308903L250.18824609733701,273.83719706855874L252.8512396694215,274.00195968319304L255.51423324150593,274.1574411379593L258.17722681359044,274.3042020772302L260.84022038567497,274.4427671444008L263.5032139577594,274.57362741536735L266.16620752984386,274.6972426609164L268.8292011019284,274.81404345033195L271.49219467401286,274.92443310764475L274.15518824609734,275.0287895311248L276.8181818181818,275.1274668858548" data-legend-class="theoretical" fill="none"/></g><g class="userGuides"/></svg><g class="axes"><g class="bottom axis bottomAxisLine" transform="translate(0,277)" fill="none" text-anchor="middle"><path class="domain" stroke="#000" d="M0.5,6V0.5H290.5V6" fill="none"/><g class="tick" opacity="1" transform="translate(1.9034835990460957,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(53.45099659813121,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">1</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(104.99850959721631,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">2</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(156.5460225963014,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">3</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(208.0935355953865,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">4</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(259.6410485944716,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">5</tspan></tspan></text></g><text class="axis-label sublabel bottom" x="145" y="25" style="text-anchor: middle;"><tspan class="transformed-label"><tspan class="label-block"><tspan class="label-subblock">tau1</tspan></tspan></tspan><tspan class="axis-label-unit bottom"/></text></g><g class="left axis leftAxisLine" fill="none" text-anchor="end"><path class="domain" stroke="#000" d="M-6,277.5H0.5V0.5H-6" fill="none"/><g class="tick" opacity="1" transform="translate(0,277.5)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,239.4673924488312)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.1</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,201.43478489766238)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.2</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,163.40217734649357)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.3</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,125.36956979532476)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.4</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,87.33696224415596)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.5</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,49.30435469298715)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.6</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,11.271747141818366)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.7</tspan></tspan></text></g><text class="axis-label sublabel left" x="-138.5" transform="rotate(-90)" y="-30" style="text-anchor: middle;"><tspan class="transformed-label"><tspan class="label-block"><tspan class="label-subblock">density</tspan></tspan></tspan><tspan class="axis-label-unit left"/></text></g></g><defs><clipPath id="All-tau1-pdf--freehand-guides-clip" class="freehand-guides-clip"><rect x="0" y="0" width="290" height="277"/></clipPath></defs></g><g class="plot page-element" width="290" height="277" id="All-I0-pdf" data-index="2" title="I0-pdf" transform="translate(0,327)"><rect width="290" height="277" class="plot-background"/><svg class="plot-content zoomable-content" width="290" height="277"><g class="histogram"><rect data-legend="Empirical distribution" data-tooltip="4%" class="bar empirical" x="29.31661134832869" y="208.9201228878648" width="7.232148884790057" height="69.0798771121352" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="1%" class="bar empirical" x="36.54876023311874" y="259.9800307219662" width="7.232148884790057" height="18.019969278033784" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="1%" class="bar empirical" x="43.78090911790882" y="259.9800307219662" width="7.232148884790057" height="18.019969278033784" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="6%" class="bar empirical" x="51.01305800269887" y="174.88018433179724" width="7.232148884790057" height="103.11981566820276" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="13.5%" class="bar empirical" x="58.24520688748895" y="47.2304147465438" width="7.232148884790057" height="230.7695852534562" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="8.5%" class="bar empirical" x="65.47735577227898" y="132.33026113671275" width="7.232148884790057" height="145.66973886328725" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="15.5%" class="bar empirical" x="72.70950465706905" y="13.190476190476204" width="7.232148884790057" height="264.8095238095238" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="5.5%" class="bar empirical" x="79.94165354185914" y="183.39016897081413" width="7.232148884790057" height="94.60983102918587" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="0%" class="bar empirical" x="87.17380242664919" y="277" width="7.232148884790057" height="1" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="10%" class="bar empirical" x="94.40595131143925" y="106.80030721966205" width="7.232148884790057" height="171.19969278033795" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="5.5%" class="bar empirical" x="101.63810019622932" y="183.39016897081413" width="7.232148884790057" height="94.60983102918587" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="6%" class="bar empirical" x="108.87024908101937" y="174.88018433179724" width="7.232148884790057" height="103.11981566820276" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="6%" class="bar empirical" x="116.10239796580943" y="174.88018433179724" width="7.232148884790057" height="103.11981566820276" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="8.5%" class="bar empirical" x="123.33454685059951" y="132.33026113671275" width="7.232148884790057" height="145.66973886328725" data-legend-class="empirical"/><rect data-legend="Empirical distribution" data-tooltip="9%" class="bar empirical" x="130.56669573538957" y="123.82027649769583" width="7.232148884790057" height="154.17972350230417" data-legend-class="empirical"/></g><g class="distribution-functions"><path data-legend="Theoretical distribution" class="theoretical line autoscale cdf" d="M13.181818181818183,276.80640188821855L15.844811753902665,276.54715069293127L18.507805325987146,276.0418098520167L21.17079889807163,275.1412418992061L23.833792470156112,273.6573349163855L26.49678604224059,271.3753576141153L29.159779614325075,268.0745852626942L31.822773186409556,263.5543954918497L34.48576675849404,257.6616439009296L37.14876033057852,250.31478385521908L39.81175390266301,241.52087354965906L42.474747474747474,231.38302152517224L45.13774104683197,220.09753713179697L47.80073461891644,207.94166962046756L50.46372819100093,195.2540465996713L53.126721763085406,182.41061775413448L55.78971533516987,169.79906971140645L58.45270890725437,157.79439798050294L61.11570247933886,146.73774750424832L63.778696051423324,136.9199181116672L66.44168962350781,128.57020722846508L69.10468319559229,121.85062523523152L71.76767676767679,116.85502449887443L74.43067033976126,113.61235153506988L77.09366391184574,112.09305637557446L79.75665748393023,112.21765030361735L82.41965105601471,113.86646064439378L85.08264462809917,116.88975570247882L87.74563820018365,121.11757373614313L90.40863177226815,126.36876216756073L93.07162534435264,132.45889869591215L95.73461891643711,139.20691259082173L98.39761248852157,146.44034565147797L101.06060606060605,153.99928587911043L103.72359963269056,161.7390736671137L106.38659320477504,169.53192307900247L109.04958677685951,177.26762343551417L111.71258034894399,184.8534932114947L114.37557392102849,192.21375327738417L117.03856749311296,199.28847351744676L119.70156106519744,206.03222894887654L122.36455463728191,212.41258115433732L125.02754820936642,218.40848001605005L127.69054178145089,224.0086607438077L130.35353535353536,229.21009289896872L133.01652892561984,234.01652203426752L135.67952249770434,238.43713091171583L138.34251606978881,242.48533603683688L141.0055096418733,246.17772632477636L143.66850321395776,249.5331438728235L146.33149678604227,252.5719017888864L148.99449035812674,255.31513053523068L151.6574839302112,257.7842420156935L154.32047750229572,260.00049940638957L156.9834710743802,261.9846802757824L159.64646464646466,263.7568206621004L162.30945821854914,265.3360283083705L164.9724517906336,266.7403540620649L167.63544536271814,267.98671141950206L170.2984389348026,269.0908352511007L172.96143250688706,270.06727181967545L175.62442607897154,270.92939325491454L178.28741965105604,271.68943064190375L180.95041322314054,272.3585208002193L183.613406795225,272.94676266157444L186.2764003673095,273.4632798936947L188.93939393939394,273.9162870662268L191.60238751147844,274.31315721457935L194.26538108356294,274.6604891353896L196.9283746556474,274.9641731498457L199.59136822773192,275.2294544060538L202.25436179981637,275.4609930668754L204.91735537190084,275.6629209528344L207.58034894398534,275.83889438804937L210.2433425160698,275.99214313739L212.90633608815432,276.12551543122714L215.56932966023876,276.241519155655L218.23232323232327,276.3423593456311L220.89531680440777,276.4299721602198L223.55831037649222,276.50605554654766L226.22130394857672,276.5720968151721L228.88429752066116,276.6293973568222L231.54729109274567,276.679094730981L234.21028466483017,276.7221823522377L236.87327823691462,276.75952699215213L239.53627180899912,276.79188430364354L242.1992653810836,276.81991256255066L244.8622589531681,276.8441848076872L247.52525252525257,276.8651995469932L250.18824609733701,276.8833901836528L252.85123966942152,276.89913330262266L255.514233241506,276.9127559451007L258.1772268135905,276.9245419862195L260.84022038567497,276.9347377197542L263.50321395775944,276.9435567429543L266.166207529844,276.95118422475343L268.8292011019284,276.95778063158286L271.49219467401286,276.96348497678895L274.15518824609734,276.96841765219887L276.8181818181818,276.97268289364996" data-legend-class="theoretical" fill="none"/></g><g class="userGuides"/></svg><g class="axes"><g class="bottom axis bottomAxisLine" transform="translate(0,277)" fill="none" text-anchor="middle"><path class="domain" stroke="#000" d="M0.5,6V0.5H290.5V6" fill="none"/><g class="tick" opacity="1" transform="translate(34.817649209848845,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.2</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(99.26439578415714,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.4</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(163.71114235846545,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.6</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(228.15788893277377,0)"><line stroke="#000" y2="3" fill="none"/><text fill="#000" y="6" dy="0.71em" class="bottomAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0.8</tspan></tspan></text></g><text class="axis-label sublabel bottom" x="145" y="25" style="text-anchor: middle;"><tspan class="transformed-label"><tspan class="label-block"><tspan class="label-subblock">I0</tspan></tspan></tspan><tspan class="axis-label-unit bottom"/></text></g><g class="left axis leftAxisLine" fill="none" text-anchor="end"><path class="domain" stroke="#000" d="M-6,277.5H0.5V0.5H-6" fill="none"/><g class="tick" opacity="1" transform="translate(0,277.5)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">0</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,241.6881790849887)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">1</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,205.87635816997738)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">2</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,170.06453725496604)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">3</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,134.25271633995473)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">4</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,98.44089542494339)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">5</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,62.62907450993208)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">6</tspan></tspan></text></g><g class="tick" opacity="1" transform="translate(0,26.81725359492077)"><line stroke="#000" x2="-3" fill="none"/><text fill="#000" x="-6" dy="0.32em" class="leftAxisTickLabels transformed-label"><tspan class="label-block"><tspan class="label-subblock">7</tspan></tspan></text></g><text class="axis-label sublabel left" x="-138.5" transform="rotate(-90)" y="-30" style="text-anchor: middle;"><tspan class="transformed-label"><tspan class="label-block"><tspan class="label-subblock">density</tspan></tspan></tspan><tspan class="axis-label-unit left"/></text></g></g><defs><clipPath id="All-I0-pdf--freehand-guides-clip" class="freehand-guides-clip"><rect x="0" y="0" width="290" height="277"/></clipPath></defs></g></g><text x="315" y="-1em" class="title transformed-label" text-anchor="middle"><tspan class="label-block"/></text></g></g></g></g></svg>

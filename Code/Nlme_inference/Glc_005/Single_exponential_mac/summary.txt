@@ -1,0 +1,93 @@
+********************************************************************************
+*                        Single_exponential_mac.mlxtran                        *
+*                        February 25, 2021 at 20:24:47                         *
+*                        Monolix version : 2020R1                              *
+********************************************************************************
+
+
+ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
+
+Fixed Effects ----------------------------     se_sa    rse(%)
+A1_pop       :                       0.182    0.0179      9.85
+tau1_pop     :                        4.98     0.628      12.6
+I0_pop       :                        0.32    0.0167      5.22
+
+Standard Deviation of the Random Effects -
+omega_A1     :                       0.323    0.0754      23.3
+omega_tau1   :                       0.371    0.0979      26.4
+omega_I0     :                        0.21    0.0429      20.4
+
+Correlations -----------------------------
+corr_tau1_A1 :                      -0.999   0.00336     0.337
+
+Error Model Parameters -------------------
+a            :                      0.0491   0.00106      2.17
+
+Elapsed time (seconds) :      29
+CPU time     (seconds) :      27
+
+ _______________________________________________________________________________
+
+
+
+ESTIMATION OF THE INDIVIDUAL PARAMETERS ________________________________________
+
+
+Estimation of the individual parameters by Conditional Distribution ------------
+             min        Q1    median        Q3       max
+A1   :    0.0979     0.152     0.189     0.225     0.308
+tau1 :      2.73      4.01       4.9      6.33      10.5
+I0   :     0.238     0.276      0.33     0.357     0.432
+
+Elapsed time (seconds) :     6.7
+CPU time     (seconds) :     6.1
+
+ -------------------------------------------------------------------------------
+
+
+Estimation of the individual parameters by Conditional Mode --------------------
+             min        Q1    median        Q3       max
+A1   :    0.0958     0.157     0.192     0.223     0.321
+tau1 :      2.58      3.94      4.66      5.89      10.4
+I0   :     0.239     0.274      0.33     0.348      0.44
+
+Elapsed time (seconds) :    0.18
+CPU time     (seconds) :       0
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+
+ESTIMATION OF THE FISHER INFORMATION MATRIX ____________________________________
+
+
+Estimation of the Fisher information matrix by Stochastic Approximation --------
+
+Correlation Matrix :
+      A1_pop         1
+    tau1_pop  -0.96994         1
+      I0_pop  -0.29624   0.26705         1
+    omega_A1   -0.1769   0.21374  0.064155         1
+corr_tau1_A1  -0.28616   0.25873   0.12051  -0.40279         1
+  omega_tau1   -0.3875   0.46482   0.11817   0.89852  -0.10293         1
+    omega_I0  0.074924 -0.068257  -0.11213  -0.11266  0.046689  -0.10571         1
+           a  0.036086 -0.034628 -0.020025 -0.024891 -0.018357 -0.038864   0.01128         1
+
+                               min       max   max/min
+Eigen values           :     0.011       2.7    2.4e+2
+
+Elapsed time (seconds) :     1.2
+CPU time     (seconds) :       0
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+DATASET INFORMATION
+Number of individuals: 22
+Number of observations (observation): 1100
+Number of doses: 0
+
