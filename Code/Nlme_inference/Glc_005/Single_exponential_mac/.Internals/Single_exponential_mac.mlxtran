@@ -11,7 +11,7 @@ observation = {use=observation, name=observation, type=continuous}
 id = {use=identifier}
 
 [FILTER]
-glucose_005_filtered = {origin='../../../../../Intermediate/Monolix_data/glucose_005.csv', filter={{removeLines='ID>50'}}}
+glucose_005_filtered = {origin='../../../../../Intermediate/Monolix_data/glucose_005.csv', filter={{removeLines='ID<=50'}}}
 
 [APPLICATION]
 computation=glucose_005_filtered
@@ -40,14 +40,14 @@ data = observation
 model = observation
 
 <PARAMETER>
-A1_pop = {value=0.1963792670774522, method=MLE}
-I0_pop = {value=0.4594170241739696, method=MLE}
+A1_pop = {value=0.1936508572149884, method=MLE}
+I0_pop = {value=0.4617460434811891, method=MLE}
 a = {value=1, method=MLE}
 corr_tau1_A1 = {value=-0.9989844847229856, method=MLE}
 omega_A1 = {value=1, method=MLE}
 omega_I0 = {value=1, method=MLE}
 omega_tau1 = {value=1, method=MLE}
-tau1_pop = {value=4.95431882408719, method=MLE}
+tau1_pop = {value=5.050772506721236, method=MLE}
 
 <MONOLIX>
 

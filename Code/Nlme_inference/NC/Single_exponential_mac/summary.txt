@@ -1,0 +1,68 @@
+********************************************************************************
+*                        Single_exponential_mac.mlxtran                        *
+*                        April 27, 2021 at 21:37:26                            *
+*                        Monolix version : 2020R1                              *
+********************************************************************************
+
+
+ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
+
+Fixed Effects ----------------------------
+A1_pop       :                      0.0254
+tau1_pop     :                     2.05e+3
+I0_pop       :                       0.371
+
+Standard Deviation of the Random Effects -
+omega_A1     :                       0.588
+omega_tau1   :                         1.5
+omega_I0     :                       0.106
+
+Correlations -----------------------------
+corr_tau1_A1 :                      -0.961
+
+Error Model Parameters -------------------
+a            :                    2.22e-16
+b            :                       0.217
+
+Elapsed time (seconds) :       9
+CPU time     (seconds) :      14
+
+ _______________________________________________________________________________
+
+
+
+ESTIMATION OF THE INDIVIDUAL PARAMETERS ________________________________________
+
+
+Estimation of the individual parameters by Conditional Distribution ------------
+             min        Q1    median        Q3       max
+A1   :    0.0215    0.0243    0.0268    0.0349    0.0544
+tau1 :   1.61e+3   4.07e+3   6.59e+3   7.43e+3   9.54e+3
+I0   :     0.331     0.344     0.358     0.412     0.437
+
+Elapsed time (seconds) :     4.4
+CPU time     (seconds) :     7.2
+
+ -------------------------------------------------------------------------------
+
+
+Estimation of the individual parameters by Conditional Mode --------------------
+             min        Q1    median        Q3       max
+A1   :    0.0194    0.0228    0.0242    0.0319    0.0539
+tau1 :       323   1.17e+3   2.31e+3   2.66e+3   3.99e+3
+I0   :     0.332     0.345     0.358     0.413     0.437
+
+Elapsed time (seconds) :   0.065
+CPU time     (seconds) :       0
+
+ -------------------------------------------------------------------------------
+
+ _______________________________________________________________________________
+
+
+
+DATASET INFORMATION
+Number of individuals: 10
+Number of observations (observation): 500
+Number of doses: 0
+
