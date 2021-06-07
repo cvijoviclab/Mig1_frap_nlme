@@ -1,7 +1,7 @@
 READ ME
-We have experienced some issues with opening of project files when moving platforms. To reproduce the simulations:
+We have experienced some issues with opening of project files when moving between platforms. To reproduce the simulations:
 1) The data in the intermediate file is formated to fit Monolix. Open the file for the requested condition and add the data. The 0.05 % glucose data set contain 3 datasetss of different duration and size. To reproduce the result from the paper use the filter to remove ID under 50. They contain a data set retrived using different parameters than the other conditions. 
 2) Choose structural model.
-3) Under the Statistickal model & Task, make sure the "standard error" task is marked and use the constant error model. At the individual model, set all parameters as lognormal and mark in random effects. For A1/2 and tau1/2 mark in correlation. 
+3) Under the Statistical model & Task, make sure the "standard error" task is marked and use the constant error model. At the individual model, set all parameters as lognormal and mark in random effects. For A1/2 and tau1/2 mark in correlation. 
 4) Run a first round with the defalt initial estimates and then go to the initial estimates and press "Fixed effects" for "Use last estimates:" (In the right corner). Run simulations again.
 
